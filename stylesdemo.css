@@ -1,0 +1,141 @@
+
+body,
+h1,
+h2,
+label,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Asus ROG';
+  background-color: #f0f0f0;
+}
+
+#container {
+  max-width: 800px;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 span {
+  color: #b50821  ;
+}
+
+main section {
+  margin-bottom: 40px;
+}
+
+section h2 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0e1d89;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f7a600;
+}
+
+video {
+  max-width: 1000px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+canvas {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.media-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex: 1;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+video,
+canvas {
+  width: 50%; /* Đảm bảo video và canvas chiếm toàn bộ chiều rộng của box */
+  max-width: 50%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.media-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.media-container .box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px; /* Khoảng cách giữa video và canvas */
+}
+
+.input-box {
+  width: 50%;
+  padding: 100px;
+  border: 50px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  margin-right: 100px; /* Thêm khoảng cách bên phải */
+}
+
